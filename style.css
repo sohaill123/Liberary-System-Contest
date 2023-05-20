@@ -1,0 +1,77 @@
+
+.navbar{
+    position:fixed;
+    background-color:yellow;
+    width:99%;
+    padding:10px;
+    font-size: 20px;
+    top:0;
+    
+    
+    text-rendering: geometricPrecision;
+    font-family:cursive;
+    color:red;
+    text-align: left;
+    overflow:hidden;
+   word-spacing:5px;  
+}
+
+.navbar a{
+
+    float: right;
+    font-size: 16px;
+    color: black;
+    text-align: center;
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 14px;
+    text-decoration: none;
+}
+
+
+.table{
+    text-align:center;
+    border-collapse:collapse;
+     margin: 5px ;
+     width:95%;
+    height:max-content;
+    background-color: #f7c3c1;
+     
+}
+
+#ta{
+    border-collapse: collapse;
+    margin:20px;
+    width:80%;
+    text-align:left;
+    background-color: #f8d6d4;
+}
+
+
+#inputfield {
+    width:95%;
+  margin:none;
+  padding:10px;
+
+}
+
+#register {
+    width:100%;
+    background-color: black;
+    color:white;
+    padding:15px;
+    font-size: 15px;
+}
+
+
+#reg{
+ border-style:hidden;
+ padding: 10px;
+ background-color: rgb(236, 216, 178);
+}
+
+#book{
+    border-style:hidden;
+    padding: 10px;
+    background-color: rgb(172, 240, 198);
+   }

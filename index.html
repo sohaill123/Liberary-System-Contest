@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Liberary</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="n">
+      <nav class="navbar">
+        <b>Liberary System</b>
+
+        <a href="#">Logout</a>
+        <a href="#">Contact</a>
+        <a href="#reg">Register</a>
+        <a href="#book">Books</a>
+      </nav>
+      <br /><br />
+    </div>
+
+    <!-- table starting -->
+    <div id="book">
+      <table class="table" border="border">
+        <h1>Books</h1>
+        <tr>
+          <th>Book ID</th>
+          <th>Title</th>
+          <th>Author</th>
+          <th>Genre</th>
+          <th>Availability</th>
+        </tr>
+
+        <tr>
+          <td>1</td>
+          <td>
+            <table border="border" id="ta">
+              <a
+                href="https://en.wikipedia.org/wiki/Indiana_Jones_and_the_Peril_at_Delphi"
+                >Indiana Jones and the Peril at Delph</a
+              >
+              <tr>
+                <td>Publication Date: 1991</td>
+              </tr>
+              <tr>
+                <td>Page Count: 248</td>
+              </tr>
+              <tr>
+                <td>ISBN: 0-553-28931-43</td>
+              </tr>
+            </table>
+          </td>
+
+          <td>Rob Macgregor</td>
+          <td>Adventure</td>
+          <td>Available</td>
+        </tr>
+
+        <tr>
+          <td>2</td>
+          <td>
+            <table border="border" id="ta">
+              <a
+                href="https://en.wikipedia.org/wiki/Harry_Potter_and_the_Philosopher%27s_Stone"
+                >Harry Potter and the Philosopher's Stone</a
+              >
+              <tr>
+                <td>Publication Date: 1997</td>
+              </tr>
+              <tr>
+                <td>Page Count: 223</td>
+              </tr>
+              <tr>
+                <td>ISBN: 978-0-7475-3269-9</td>
+              </tr>
+            </table>
+          </td>
+
+          <td>J. K. Rowling</td>
+          <td>Fantasy</td>
+          <td>Available</td>
+        </tr>
+
+        <tr>
+          <td>3</td>
+          <td>
+            <table border="border" id="ta">
+              <a
+                href="https://en.wikipedia.org/wiki/The_Lion,_the_Witch_and_the_Wardrobe"
+                >The Lion, the Witch and the Wardrobe</a
+              >
+              <tr>
+                <td>Publication Date: 1950</td>
+              </tr>
+              <tr>
+                <td>Page Count: 172</td>
+              </tr>
+              <tr>
+                <td>ISBN: 978-0-06-081922-4</td>
+              </tr>
+            </table>
+          </td>
+
+          <td>C. S. Lewis</td>
+          <td>fantasy novel</td>
+          <td>Available</td>
+        </tr>
+
+        <tr>
+          <td>4</td>
+          <td>
+            <table border="border" id="ta">
+              <a href="https://en.wikipedia.org/wiki/The_Lord_of_the_Rings"
+                >The Lord of the Rings</a
+              >
+              <tr>
+                <td>Publication Date: 1954</td>
+              </tr>
+              <tr>
+                <td>Page Count: 400</td>
+              </tr>
+              <tr>
+                <td>ISBN: 1487587</td>
+              </tr>
+            </table>
+          </td>
+
+          <td>J. R. R. Tolkien</td>
+          <td>epic high-fantasy novel</td>
+          <td>Not Available</td>
+        </tr>
+
+        <tr>
+          <td>5</td>
+          <td>
+            <table border="border" id="ta">
+              <a href="#">The Hobbit, or There and Back Again</a>
+              <tr>
+                <td>Publication Date: 1937</td>
+              </tr>
+              <tr>
+                <td>Page Count: 310</td>
+              </tr>
+              <tr>
+                <td>ISBN: 1827184</td>
+              </tr>
+            </table>
+          </td>
+
+          <td>J. R. R. Tolkien</td>
+          <td>children's fantasy novel</td>
+          <td>Available</td>
+        </tr>
+      </table>
+    </div>
+    <br />
+
+    <div id="reg">
+      <form action="#">
+        <h1>Register</h1>
+
+        <p>
+          First Name:<br />
+          <input type="text" id="inputfield" name="fname" required />
+        </p>
+
+        <p>
+          Last Name:<br />
+          <input type="text" id="inputfield" name="Lname" required />
+        </p>
+
+        <p>
+          Date of Birth:<br />
+          <input type="date" id="inputfield" name="date" required />
+        </p>
+
+        <p>
+          Age:<br />
+          <input type="number" min="5" max="100" id="inputfield" required />
+        </p>
+
+        <p>
+          Email:<br />
+          <input type="email" id="inputfield" required />
+        </p>
+
+        <p>
+          Password:<br />
+          <input type="password" id="inputfield" required />
+        </p>
+        <p>
+          Confirm Password:<br />
+          <input type="password" id="inputfield" required />
+        </p>
+
+        <input type="submit" value="Register" id="register" />
+      </form>
+    </div>
+  </body>
+</html>
