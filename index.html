@@ -6,6 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Liberary</title>
     <link rel="stylesheet" href="style.css" />
+
+    <script>  
+        function matchPassword() {  
+          var pw1 = document.getElementById("inputfield1").value;  
+          var pw2 = document.getElementById("inputfield2").value;  
+          if(pw1 != pw2)  
+          {   
+            alert("Passwords did not match");  
+          } else {  
+            alert("Password matched. Form Submitted successfully");  
+          }  
+        }  
+        </script>  
   </head>
   <body>
     <div id="n">
@@ -187,14 +200,14 @@
 
         <p>
           Password:<br />
-          <input type="password" id="inputfield" required />
+          <input type="password" id="inputfield1" required />
         </p>
         <p>
           Confirm Password:<br />
-          <input type="password" id="inputfield" required />
+          <input type="password" id="inputfield2" required />
         </p>
 
-        <input type="submit" value="Register" id="register" />
+        <input type="submit" value="Register" onclick="matchPassword()" id="register" />
       </form>
     </div>
   </body>
